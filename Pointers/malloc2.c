@@ -21,5 +21,7 @@ int main(int argc, char **argv) {
         }
     }
 
+    free(arr);
+
     return 0;
 }
