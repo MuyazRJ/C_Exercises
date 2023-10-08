@@ -13,6 +13,7 @@ int main(int argc, char **argv) {
     for (int i = 0; i < m; i++) {
         arr[i] = (int *)malloc(n * sizeof(int));
     }
+    
     for (int r = 0; r < m; r++) {
         if (r > 0) printf("\n");
         for (int c = 0; c < n; c++) {
