@@ -9,9 +9,8 @@ int main(int argc, char **argv) {
     if(argc == 3) {
         int a = atoi(argv[1]);
         int b = atoi(argv[2]);
-        add(&a, &b);
 
-        printf("%d + %d = %d\n", a, b, add(a, b));
+        printf("%d + %d = %d\n", a, b, add(&a, &b));
     }
     return 0;
 }
