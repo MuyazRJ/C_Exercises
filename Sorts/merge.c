@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
 
     printf("Size of array: %d\n", length);
 
-    for (int i = 0; i < argc - 1; i++) {
+    for (int i = 0; i < length; i++) {
         printf("%d ", array[i]);
     }
 
